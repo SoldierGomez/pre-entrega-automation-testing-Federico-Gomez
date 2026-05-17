@@ -26,7 +26,6 @@ cd git@github.com:SoldierGomez/pre-entrega-automation-testing-Federico-Gomez.git
 ```
 
 2. Instalar dependencias:
-- Si usa requirements.txt:
 ```bash
 pip install -r requirements.txt
 ```
@@ -40,7 +39,7 @@ pytest tests/test_sausedemo.py
 ```bash
 pytest tests/test_sausedemo.py::<NOMBRE_DEL_TEST>
 ```
-4. Generar reporte HTML:
+3. Generar reporte HTML:
 ```bash
 pytest tests/test_sausedemo.py --html=reports/report.html
 ```
