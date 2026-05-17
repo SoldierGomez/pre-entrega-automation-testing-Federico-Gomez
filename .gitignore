@@ -1,0 +1,7 @@
+# Ignorar __pycache__ en utils
+utils/**/__pycache__/
+utils/**/__pycache__/*
+
+# Ignorar __pycache__ en test
+test/**/__pycache__/
+test/**/__pycache__/*
